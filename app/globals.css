@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hoverEffect {
+    @apply hover:cursor-pointer hover:bg-gray-100 rounded-full;
+  }
+
+  button {
+    @apply bg-blue-400 text-white py-4 px-8 rounded-full font-bold;
+  }
+}
